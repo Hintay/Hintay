@@ -1,6 +1,6 @@
 ## Hi, I'm Hintay
 
-I like the layer where software meets hardware and the network: wire protocols for microcontroller boards, the programs that talk to them, and the Go and Rust services that keep everything running. These days I'm also studying language models at the University of Tsukuba, in Tokyo.
+I like the layer where software meets hardware and the network: wire protocols for microcontroller boards, the programs that talk to them, and the Go and Rust services that keep everything running. I live in Tokyo and I'm also a master's student at the University of Tsukuba.
 
 ### What I'm working on
 
@@ -8,6 +8,13 @@ I like the layer where software meets hardware and the network: wire protocols f
 - **Signet** (private for now): a self-service SSH certificate authority in Rust, with KRL revocation, signed agent upgrades and login auditing.
 - Running an LLM API gateway across four nodes, with PostgreSQL failover (Patroni, etcd), Redis replication and a small Go tool that decides when to fail over and back.
 - A burn-in test rig controller rewritten in Rust, talking CAN FD and UDP with Cyphal.
+
+### Research
+
+At Tsukuba I use language models to annotate the mood states of people with bipolar disorder in their Reddit posts, and to follow how those states change over time.
+
+- [*Few-Shot Prompt-Based Longitudinal Mood State Analysis of Bipolar Disorder on Social Media*](https://doi.org/10.1007/978-981-92-6910-5_13), BESC 2026, LNCS vol. 17175, Springer (first author)
+- [bd-state-annotation](https://github.com/kalclab/bd-state-annotation): the annotation schema, prompts, pipeline and evaluation scripts from the paper
 
 ### Small things
 
